@@ -15,6 +15,16 @@ const Blogs = () => {
 
 
 
+            <div className='lg:w-1/2 text-center box lg:p-5 lg:ml-96 mt-11'>
+                <h2 className='text-4xl font-medium text-cyan-800  pb-9'>How does context api work?</h2>
+                <p className='text-xl font-medium text-cyan-400'>The React Context API is a way for a React app to effectively produce global variables that can be passed around. <br /> This is the alternative to "prop drilling" or moving props from grandparent to child to parent, and so on. <br />
+                Context is also touted as an easier, lighter approach to state management using Redux.</p>
+            </div>
+
+
+
+
+            
 
 
 
