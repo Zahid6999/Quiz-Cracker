@@ -25,7 +25,12 @@ const Blogs = () => {
 
 
             
+            <div className='lg:w-1/2 text-center box lg:p-5 lg:ml-96 mt-11'>
+                <h2 className='text-4xl font-medium text-cyan-800  pb-9'>What is useref in react?</h2>
+                <p className='text-xl font-medium text-cyan-400'>useDeferredValue accepts a value and returns a new copy of the value that will defer to more urgent updates. If the current render is the result of an urgent update, <br /> like user input, React will return the previous value and then render the new value after the urgent render has completed.
 
+                This hook is similar to user-space hooks <br /> which use debouncing or throttling to defer updates. The benefits to using useDeferredValue is that React will work on the update as soon as other work finishes instead of waiting for an arbitrary <br /> amount of time, and like startTransition, deferred values can suspend without triggering an unexpected fallback for existing content.</p>
+            </div>
 
 
 

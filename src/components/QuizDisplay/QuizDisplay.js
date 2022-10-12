@@ -31,7 +31,7 @@ const btnHandler2 = (correctAnswer) => {
             {/* Question  */}
             <div className='lg:my-16'>
                 <EyeSlashIcon onClick={() => btnHandler2(correctAnswer)} className="h-6 w-6 text-blue-500 pt-0"/>
-                <h1 className=' text-lg lg:text-3xl font-semibold text-slate-800 p-2'>{question}</h1>
+                <h1 className='  text-base lg:text-3xl font-semibold text-slate-800 p-2'>{question}</h1>
             </div>
 
 
@@ -41,7 +41,7 @@ const btnHandler2 = (correctAnswer) => {
             <div className=''>
                
               {
-                options.map((option, index) =>  <button key={index} onClick={() => btnHandler(option)} className=' h-10 w-60 lg:h-16 lg:w-96 bg-gray-300 rounded-xl m-3  mb-3 hover:bg-orange-400 lg:text-sm'><input type="radio" id="r1" name={id} /> {option}</button> )
+                options.map((option, index) =>  <button key={index} onClick={() => btnHandler(option)} className=' h-14 w-60 lg:h-16 lg:w-96 bg-gray-300 rounded-xl m-3  mb-3 hover:bg-orange-400 text-sm lg:text-sm '><input type="radio" id="r1" name={id} /> {option}</button> )
               }
                     
                 

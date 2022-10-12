@@ -28,7 +28,7 @@ function App() {
 
 
 
-  {path: '/*', element: <p>404 </p>}
+  {path: '/*', element: <p> not found this 404 </p>}
   ]);
 
 
